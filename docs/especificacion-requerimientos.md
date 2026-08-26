@@ -56,9 +56,11 @@ Permitir que un estudiante solicite su inscripción a una tutoría académica me
 
 #### Entradas
 
-| Entrada | Tipo de dato | Descripción |
-|Código Estudiantil         | String | Identificador único del estudiante que desea inscribirse |
-|Identificador tutoría      | String | Identificador único de la tutoría a la que el estudiante desea inscribirse |
+| Entrada                     | Tipo de dato | Descripción                                                                 |
+| --------------------------- | ------------ | --------------------------------------------------------------------------- |
+| Código estudiantil          | String       | Identificador único del estudiante que desea inscribirse.                   |
+| Identificador de la tutoría | String       | Identificador único de la tutoría a la que el estudiante desea inscribirse. |
+
 
 #### Reglas o condiciones
 -El estudiante debe encontrarse activo en la Universidad.
@@ -70,10 +72,12 @@ Permitir que un estudiante solicite su inscripción a una tutoría académica me
 
 #### Salidas
 
-| Salida | Tipo de dato | Descripción |
-|Mensaje de confirmación | String | Informa al estudiante que la inscripción fue realizada correctamente |
-|Mensaje de error        | String | Informa el motivo por el cual no fue posible realizar la inscripción |
-|Cantidad cupo disponible| int  | Cantidad de cupos restantes después de realizar una inscripción exitosa|
+| Salida                        | Tipo de dato | Descripción                                                              |
+| ----------------------------- | ------------ | ------------------------------------------------------------------------ |
+| Mensaje de confirmación       | String       | Informa al estudiante que la inscripción fue realizada correctamente.    |
+| Mensaje de error              | String       | Informa el motivo por el cual no fue posible realizar la inscripción.    |
+| Cantidad de cupos disponibles | int          | Cantidad de cupos restantes después de realizar una inscripción exitosa. |
+
 
 
 #### Resultado esperado
