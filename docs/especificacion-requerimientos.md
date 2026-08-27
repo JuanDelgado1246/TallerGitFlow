@@ -42,7 +42,7 @@ El registro solo se realizará si todas las condiciones son válidas.
 #### Resultado esperado
 La tutoría queda registrada correctamente en el sistema con un identificador único y el profesor recibe un mensaje de confirmación.
 
-### RF-02 - [Nombre del requerimiento]
+### RF-02 - [Consultar tutorías disponibles]
 
 #### Resumen
 El sistema deberá permitir a los estudiantes consultar las tutorías disponibles para una fecha determinada y, opcionalmente, filtrar los resultados por asignatura o tema de interés.
@@ -108,7 +108,7 @@ Cuando la inscripción sea exitosa, se deberá disminuir en uno la cantidad de c
 #### Resultado esperado
 El estudiante queda inscrito correctamente en la tutoría, se registra la inscripción, se actualizan los cupos disponibles y se muestra un mensaje de confirmación. Si alguna condición no se cumple, no se realiza la inscripción y se informa el motivo
 
-### RF-04 - Cancelación de inscripción a tutoría
+### RF-04 - [Cancelación de inscripción a tutoría]
 
 #### Resumen
 
