@@ -11,7 +11,7 @@
 
 ## 3. Requerimientos Funcionales
 
-### RF-01 - [Registrar tutoría académica]
+### RF-01 - [registro-tutoria]
 
 #### Resumen
 El sistema deberá permitir que un profesor registre una nueva tutoría académica, proporcionando la información necesaria para que posteriormente los estudiantes puedan consultarla e inscribirse.
@@ -42,7 +42,7 @@ El registro solo se realizará si todas las condiciones son válidas.
 #### Resultado esperado
 La tutoría queda registrada correctamente en el sistema con un identificador único y el profesor recibe un mensaje de confirmación.
 
-### RF-02 - [Consultar tutorías disponibles]
+### RF-02 - [consulta-tutorías]
 
 #### Resumen
 El sistema deberá permitir a los estudiantes consultar las tutorías disponibles para una fecha determinada y, opcionalmente, filtrar los resultados por asignatura o tema de interés.
@@ -77,7 +77,7 @@ Si no existen tutorías que coincidan con la búsqueda, el sistema deberá infor
 El estudiante recibe una lista de las tutorías disponibles que coinciden con los criterios de búsqueda, mostrando su información y los cupos disponibles. Si no existen coincidencias, recibe un mensaje informativo
 
 
-### RF-03 - [Inscribir estudiante en tutoría]
+### RF-03 - [inscripcion-tutoria]
 
 #### Resumen
 El sistema deberá permitir que un estudiante solicite su inscripción a una tutoría utilizando su código estudiantil y el identificador de la tutoría.
@@ -108,7 +108,7 @@ Cuando la inscripción sea exitosa, se deberá disminuir en uno la cantidad de c
 #### Resultado esperado
 El estudiante queda inscrito correctamente en la tutoría, se registra la inscripción, se actualizan los cupos disponibles y se muestra un mensaje de confirmación. Si alguna condición no se cumple, no se realiza la inscripción y se informa el motivo
 
-### RF-04 - [Cancelación de inscripción a tutoría]
+### RF-04 - [cancelacion-inscripcion]
 
 #### Resumen
 
