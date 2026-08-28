@@ -63,7 +63,7 @@ Permitir que un estudiante solicite su inscripción a una tutoría académica me
 
 
 #### Reglas o condiciones
--El estudiante debe encontrarse activo en la Universidad.
+-El estudiante debe encontrarse activo en la Universidad Icesi.
 -La tutoría debe existir.
 -La tutoría debe tener al menos un cupo disponible.
 -El estudiante no debe estar previamente inscrito en la tutoría.
